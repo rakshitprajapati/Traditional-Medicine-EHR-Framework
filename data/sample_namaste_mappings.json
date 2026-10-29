@@ -1,0 +1,41 @@
+{
+  "formulations": [
+    {
+      "namaste_code": "AYU-HRB-001",
+      "sanskrit_name": "Ashwagandha",
+      "botanical_name": "Withania somnifera",
+      "ayush_system": "Ayurveda",
+      "active_compounds": ["Withaferin A", "Withanolide D", "Sitoindosides"],
+      "icd11_tm2_code": "SF01.4",
+      "icd11_title": "Disorder of Vital Energy (Ojas Deficiency) / Stress Response Syndrome",
+      "indications": ["Chronic fatigue", "Anxiety", "Insomnia"],
+      "contraindicated_drugs": [
+        {"generic_name": "Benzodiazepines", "rxnorm": "1191", "severity": "MODERATE", "warning": "Additive sedative effects"}
+      ]
+    },
+    {
+      "namaste_code": "AYU-HRB-002",
+      "sanskrit_name": "Guggulu",
+      "botanical_name": "Commiphora mukul",
+      "ayush_system": "Ayurveda",
+      "active_compounds": ["Guggulsterone E", "Guggulsterone Z"],
+      "icd11_tm2_code": "SF42.1",
+      "icd11_title": "Metabolic and Lipid Dysregulation Pattern (Medo Dhatu Disorder)",
+      "indications": ["Hyperlipidemia", "Osteoarthritis", "Obesity"],
+      "contraindicated_drugs": [
+        {"generic_name": "Warfarin", "rxnorm": "11289", "severity": "HIGH", "warning": "Increased risk of bleeding due to antiplatelet activity"}
+      ]
+    },
+    {
+      "namaste_code": "AYU-HRB-003",
+      "sanskrit_name": "Triphala",
+      "botanical_name": "Emblica officinalis, Terminalia chebula, Terminalia bellirica",
+      "ayush_system": "Ayurveda",
+      "active_compounds": ["Gallic acid", "Ellagic acid", "Chebulinic acid"],
+      "icd11_tm2_code": "SF20.8",
+      "icd11_title": "Gastrointestinal Agni Dysregulation Pattern (Digestive Sluggishness)",
+      "indications": ["Constipation", "Indigestion", "Oxidative stress"],
+      "contraindicated_drugs": []
+    }
+  ]
+}
